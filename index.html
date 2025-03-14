@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<Body>
+    <form action="" id="mainForm">
+        <fieldset form="mainForm" style="background-color: rgb(163, 43, 45);">
+            <legend style="background-color: rgb(70, 127, 171);">
+                Personal Data
+            </legend>
+            <br />
+            <fieldset style="background-color: rgb(217, 165, 30);">
+                <legend style="background-color: rgb(99, 148, 232); line-height: 100px;">
+                    <b>YourName</b>
+                </legend>
+                <br />
+                <br />
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="fName">first name</label>
+                            </td>
+                            <td>
+                                :
+                            </td>
+                            <td>
+                                <input type="text" id="fName" placeholder="ex. Mark" minlength="2" name="First Name" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="lName">last name</label>
+                            </td>
+                            <td>
+                                :
+                            </td>
+                            <td>
+                                <input type="text" id="lName" placeholder="ex. Ehab" minlength="2" name="Last Name" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <br />
+            <br />
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="yourPhone"> <b> your phone </b> </label>
+                        </td>
+                        <td>
+                            &nbsp;<b>:</b>&nbsp;
+                        </td>
+                        <td>
+                            <input type="tel" id="yourPhone" name="Phone" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email"> <b> Email </b> </label>
+                        </td>
+                        <td>
+                            &nbsp;<b>:</b>&nbsp;
+                        </td>
+                        <td>
+                            <input type="email" id="email" name="Email" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password"> <b> password </b> </label>
+                        </td>
+                        <td>
+                            &nbsp;<b>:</b>&nbsp;
+                        </td>
+                        <td>
+                            <input type="password" id="password" name="Password" minlength="8" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="repassowrd"> <b>re-passowrd</b> </label>
+                        </td>
+                        <td>
+                            &nbsp;<b>:</b>&nbsp;
+                        </td>
+                        <td>
+                            <input type="password" id="repassowrd" name="Re-Password" minlength="8" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <br />
+            <input type="radio" id="male" name="Gender" value="Male" />
+            <label for="male"> Male </label>
+            <br />
+            <input type="radio" id="female" name="Gender" value="Female" />
+            <label for="female"> Female </label>
+            <br />
+            <br />
+            <input type="checkbox" id="student" name="Status" value="Student" />
+            <label for="student"> Student </label>
+            <br />
+            <input type="checkbox" id="graduated" name="Status" value="Graduated" />
+            <label for="graduated"> Graduated </label>
+            <br />
+            <br />
+            <select name="universities" id="universities">
+                <optgroup label="Multinational universities">
+                    <Option>AUC</Option>
+                    <Option>GUC</Option>
+                    <Option>BUE</Option>
+                </optgroup>
+                <optgroup label="National universities">
+                    <Option>Cairo University</Option>
+                    <Option>Alexandria University</Option>
+                    <Option>Helwan University</Option>
+                </optgroup>
+                <optgroup label="Private universities">
+                    <Option>MUST</Option>
+                    <Option>MSA</Option>
+                    <Option>Modern Academy</Option>
+                </optgroup>
+            </select>
+            <br />
+            <input type="image" src="./Images/SubmitBtn.png">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </fieldset>
+    </form>
+</Body>
+
+</html>
